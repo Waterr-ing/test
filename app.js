@@ -130,6 +130,5 @@ window.addEventListener('load', async (e) =>{
         notes = list
         renderList();
     }
-    console.log(notes)
 })
 
