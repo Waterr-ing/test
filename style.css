@@ -1,0 +1,65 @@
+body {
+    background-color: #DCDCDC;
+    height: 100vh;
+}
+.header {
+    display: flex;
+    top: 0;
+    padding: 15px;
+    width: 100%;
+    max-height: 125px;
+    border-bottom: 1px solid #000000;
+}
+.notes-list {
+    padding: 20px 0px;
+}
+.note-item{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #7b7b7b;
+    margin-bottom: 20px;
+}
+.note-text{
+    font-weight: 500;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.edit-button{
+    position: absolute;
+    margin-right: 90px;
+    right: 0;
+}
+.delete-button{
+    position: absolute;
+    margin-right: 15px;
+    right: 0;
+}
+.paint-button{
+    position: absolute;
+    margin-right: 205px;
+    right: 0;
+}
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 210px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.menu-item {
+    padding: 10px;
+    border: 1px solid white;
+    border-bottom: 1px solid #000000;
+}
+
+.hidden {
+    display: none;
+}
+
